@@ -11,7 +11,7 @@
     Be sure that these programs are added to your environment path, so you can use them from your command prompt.
 
 !!! important
-    If make complins about missing libintl3.dll or/and libiconv2.dll please donwload the [dependencies](http://gnuwin32.sourceforge.net/downlinks/make-dep-zip.php) and extract the bin contento into the make installation path.
+    If make complins about missing libintl3.dll or/and libiconv2.dll please donwload the [dependencies](http://gnuwin32.sourceforge.net/downlinks/make-dep-zip.php) and extract the bin content into the make installation path.
 
 Also:
 
@@ -59,7 +59,7 @@ Once you have downloaded the repo and extract the Carla contents you can start w
 | `make rebuild` | Rebuilds Carla project, dependencies not build |
 
 
-If you build Carla for the first time or after you clean the project it will probably ask you to build the `UE4Editor-CarlaUE4.dll` and `UE4Editor-Carla.dll` also (as is needed for coocking the content for launch Carla), agree and the project will be opened in the Unreal Engine in a few minutes.
+If you build Carla for the first time or after you clean the project it will probably ask you to build the `UE4Editor-CarlaUE4.dll` and `UE4Editor-Carla.dll` also (as is needed for cooking the content for launch Carla), agree and the project will be opened in the Unreal Engine in a few minutes.
 
 Example of building Carla 0.9.0 for first time:
 ```cmd
